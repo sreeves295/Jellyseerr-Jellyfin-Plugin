@@ -1,0 +1,18 @@
+{
+  "Name": "Requests Embed",
+  "Description": "Embed https://request.seanreeves.me in a new Requests tab using PluginPages.",
+  "Version": "1.0.0",
+  "Guid": "6e1a4b8e-4f7d-4b63-a05e-3f9c5f8b5f3e",
+  "PluginPages": [
+    {
+      "Name": "Requests",
+      "HtmlPath": "index.html"
+    }
+  ],
+  "Dependencies": [
+    {
+      "Name": "pluginpages",
+      "Version": ">=1.5.0"
+    }
+  ]
+}
